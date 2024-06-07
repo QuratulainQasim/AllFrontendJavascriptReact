@@ -1,0 +1,76 @@
+.innerFormDiv{
+   text-align: center;
+   font-family: Arial;
+   font-size: small;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-bottom: 9px;
+
+}
+h1{
+    margin-bottom: 6vh;
+}
+.innerFormDiv input , button{
+    text-align: center;
+    margin: 10px; 
+    height: 6vh;
+    background-color: lightpink;
+    border: 0.5px solid lightgray;
+    color: midnightblue;
+    border-radius: 20px;
+}
+.innerFormDiv button:hover{
+    background-color: rgb(175, 194, 175);
+    cursor: pointer;
+}
+.innerFormDiv input:hover{
+    background-color: lightgray;
+}
+
+.mainFormDiv{
+    border: 1.5px solid black ;
+    height: 60vh;
+    width: 38vh;
+    margin-left: 80vh;
+    background-color: lightblue;
+    margin-top: 25vh;
+    
+   
+}
+
+.details {
+    margin-top: 8vh;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial;
+    font-size: small;
+}
+
+.details > div {
+    margin: 10px; 
+    display: flex;
+
+}
+
+.details h2 {
+    margin: 0;
+  
+}
+
+.details p {
+    margin: 0 5px; /* Add small distance between email and password */
+    margin-top: 5px;
+}

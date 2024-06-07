@@ -1,0 +1,83 @@
+.biggestDiv {
+  text-align: center;
+  align-items: center;
+}
+
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px 150px;
+  margin: 0 auto;
+  width: 130vh;
+  height: 70vh;
+}
+
+.productDiv {
+ 
+  width: 190px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Arial;
+  background-color: lightgray;
+  flex-shrink: 0;
+}
+
+.productDiv h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.productDiv h2:hover {
+  cursor: pointer;
+}
+
+.productDiv p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.productDiv p:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.productDiv img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Remove inline-flex */
+  margin: 0 auto;
+}
+
+.productDiv img:hover {
+  cursor: pointer;
+}
+
+.cartIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.cartP {
+  font-family: Arial;
+  font-size: small;
+  position: relative;
+
+  bottom: 5vh;
+
+}
+
+.cartt {
+  font-family: Arial;
+  font-size: small;
+  position: relative;
+  left: 6vh;
+  bottom: 8vh;
+
+}

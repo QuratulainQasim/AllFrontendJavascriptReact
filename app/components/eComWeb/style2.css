@@ -1,0 +1,384 @@
+.pic1 {
+    height: 30%;
+    width: 28%;
+    margin-left: 922px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 80px;
+    border: 1px solid lightcoral;
+
+
+
+}
+
+.pic1:hover {
+    transform: scale(1.1);
+}
+
+.topNav {
+    margin-right: 10px;
+}
+
+.topNav ul li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+
+
+}
+
+
+
+
+.topNav ul li a {
+
+    text-decoration: none;
+    font-family: Arial;
+    padding: 23px 55px;
+    background-color: lightgrey;
+
+
+
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 170px;
+    top: 70px;
+}
+
+.dropdownContent a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+
+}
+
+.myTreasure {
+    border: 1px solid black;
+    border-radius: 36px;
+    margin-right: 60px;
+    /* margin-left: 30px; */
+    margin-left: 0%;
+
+}
+
+
+
+/* .searchProduct {
+    text-align: center;
+    margin-left: 20px;
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 25px;
+    
+} */
+.addtoCart {
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    border: 2px solid black;
+    border-radius: 80px;
+}
+
+.bnch {
+    font-family: Arial;
+    position: relative;
+    bottom: 300px;
+    left: 360px;
+}
+
+.my-para {
+    color: rgb(209, 57, 181);
+}
+
+.heading {
+    color: midnightblue;
+}
+
+.shop-button {
+    color: white;
+    background-color: midnightblue;
+    height: 33px;
+    font-size: small;
+    border: none;
+}
+
+.shop-button:hover {
+    background-color: lightgreen;
+}
+
+.shop-button a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.shop-button a:hover {
+    color: rgb(236, 111, 201);
+
+}
+
+.hori-line {
+    margin-top: 99px;
+    width: 100%;
+
+}
+
+/* kheri;gjrw;ogj4wop */
+
+.button-container {
+    text-align: center;
+}
+
+/* Button */
+.login-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+.login-button:hover {
+    background-color: #45a049;
+}
+
+/* Button Ripple Effect */
+.login-button:after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Button Ripple Effect Animation */
+.login-button:hover:after {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.lowerdiv {
+    background-color: rgb(216, 223, 231);
+    font-family: Arial;
+    font-size: small;
+    position: relative;
+    bottom: 280px;
+
+}
+
+.imageDiv {
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 45px 430px;
+    position: relative;
+    right: 110px; */
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 20px 0;
+    position: relative;
+    right: 110px;
+    width: 80vh;
+    margin-left: 66vh;
+}
+
+.imageDiv>div {
+
+
+
+    text-align: center;
+    width: 30%;
+
+}
+
+
+.imageDiv img {
+    width: 100%;
+    max-width: 150px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.imageDiv img:hover {
+    transform: scale(1.1);
+}
+
+.imageDiv p {
+    margin-top: 10px;
+
+}
+
+.phd {
+    position: relative;
+    margin-left: 360px;
+    top: 25px;
+}
+
+.phd p {
+    color: midnightblue;
+}
+
+.intirelowerdiv {
+    height: 50vh;
+    width: 140vh;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 40vh;
+    left: 37vh;
+    border-radius: 40px;
+    background-color: rgb(231, 244, 248);
+}
+
+.intirelowerdiv:hover {
+    border: 1.5 solid lightgray;
+}
+
+.intirelowerdiv img {
+    width: 0%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 700px;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.imgDiv {
+    /* border: 1px solid rgb(134, 132, 132); */
+    border-radius: 40px;
+    height: 12vh;
+    width: 45vh;
+    background-color: rgb(231, 226, 226);
+    display: inline-block;
+    margin: 40px;
+    margin-right: 40px;
+    font-family: Arial;
+    position: relative;
+    left: 12vh;
+    font-size: small;
+}
+
+.intirelowerdiv img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.imgDiv:hover {
+    background-color: rgb(236, 216, 219);
+    cursor: pointer;
+}
+
+.secondlast {
+    height: 40vh;
+    width: 220vh;
+    position: relative;
+    bottom: 45vh;
+    background-color: aliceblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+.secondlast h4 {
+    padding: 20px;
+}
+
+.logoDiv {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 120vh;
+    margin-left: 44vh;
+
+}
+
+.logoDiv img {
+    width: 80px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.logoDiv img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    height: 15vh;
+    width: 140vh;
+    position: relative;
+    left: 39vh;
+    bottom: 48vh;
+    border-radius: 15px;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-family: Arial;
+    font-size: small;
+}
+
+.footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: small;
+}
+
+.footer button:hover {
+    color: lightblue;
+    background-color: darkgoldenrod;
+
+}
+
+.footer button,
+.footer button>a {
+    text-decoration: none;
+}

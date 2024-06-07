@@ -1,0 +1,108 @@
+.amzHead {
+    margin-left: 50px;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+
+.topNav ul li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+.topNav {
+    border: ipx solid black;
+}
+
+.topNav ul li a {
+
+    text-decoration: none;
+    font-family: Arial;
+    padding: 23px 42px;
+    background-color: lightgrey;
+
+}
+
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 170px;
+    top: 70px;
+}
+
+.dropdownContent a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+
+}
+
+.mainDiv {
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.dataInfoInputs {
+    /* margin-top: 35px; */
+    margin-bottom: 25px;
+    height: 8.5vh;
+    width: 40vh;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 35px;
+    background-color: #9494ed;
+    margin-top: 20px;
+
+
+}
+ :hover input {
+    background-color: azure;
+}
+
+.logform {
+    font-family: Arial;
+    margin-bottom: 70px;
+}
+
+.formButton {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.emptyBox {
+    height: 40vh;
+    width: 20%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 85vh;
+    font-family: Arial;
+
+}

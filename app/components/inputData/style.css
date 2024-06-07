@@ -1,0 +1,93 @@
+.mainDiv {
+    background-color: green;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-divv {
+    background-color: bisque;
+    height: 110vh;
+    width: 50%;
+    border: 3px solid red;
+    border-radius: 15px;
+    /* box-shadow: inset 18px -14px 13px 20px rgb(222, 137, 137); */
+    box-shadow: inset 18px -14px 143px 5px rgb(222, 137, 137);
+}
+
+.blue-head {
+    font-family: Arial;
+    color: green;
+    margin-bottom: 5VHvh;
+}
+
+input:hover {
+    background-color: darkgray;
+}
+
+.input-Style {
+    width: 40vh;
+    height: 8vh;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 100px;
+}
+
+.goButton {
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 2vh;
+
+}
+
+img:hover {
+    border-color: green;
+    opacity: 20px;
+}
+
+.table table {
+    width: 100%;
+    /* margin-top: 5vh; */
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+.table th {
+    background-color: midnightblue;
+   color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+th:hover{
+
+    background-color:lightcyan;
+    color: black;
+}
+.table td{
+   background-color: lightblue;
+   font-family: Arial;
+}
+td:hover{
+    background-color: lightgray;
+}
+.deleteButton{
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    
+}
+
+

@@ -1,0 +1,15 @@
+.inline-d {
+    display: inline;
+}
+.block-d {
+    display: block;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}

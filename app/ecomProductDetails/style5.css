@@ -1,0 +1,42 @@
+.detailpgimg{
+    height: 400px;
+}
+
+h1{
+    color: blue;
+    font-family: Arial;
+    text-align: center;
+}
+
+.smalldiv{
+    font-family: Arial;
+    color: orange;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+.selecteddiv{
+    font-family: Arial;
+    margin-top: 15vh;
+}
+.midDiv{
+    position: relative;
+    left: 90vh;
+    bottom: 61vh;
+    color: rgb(49, 156, 223);
+}
+.addToCartButton{
+    font-size: small;
+    font-family: Arial;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color:orange;
+}
+.addToCartButton:hover{
+    background-color: lightgreen;
+    color: darkorchid;
+    border: none;
+    border: greenyellow;
+    cursor: pointer;
+}

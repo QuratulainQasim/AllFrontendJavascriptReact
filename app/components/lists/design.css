@@ -1,0 +1,103 @@
+.list-head {
+    color: white;
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial;
+    width: 37vh;
+    border-radius: 3px;
+    
+}
+
+/* h1:hover {
+
+    color: green;
+    background-color: lightpink;
+    
+} */
+
+.main-div {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-div {
+    width: 20%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+.input {
+    text-align: center;
+    height: 30px;
+    width: 60%;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(187, 78, 191);
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button {
+    margin-left: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    min-height: 40px;
+    width: 50px;
+    border: none;
+    font-size: 40px;
+    outline: none;
+}
+
+button:hover {
+    background-color: green;
+}
+
+ol {
+    margin-top: 30px;
+}
+
+ol li {
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: purple;
+    text-transform: capitalize;
+    font-family: Arial;
+}
+
+.cross-icon {
+    height: 20px;
+    width: 20px;
+    border: 2px solid green;
+    border-radius: 13px;
+}
+
+img:hover {
+    border-color: black;
+}
+
+.todo-style {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .center-div {
+        width: 53%;
+    }
+}

@@ -1,0 +1,19 @@
+.mobimg {
+    height: 370px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.mobtable {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Arial;
+   
+}
+
+.entiredata {
+    width: 100%;
+    border-collapse: collapse;
+
+}

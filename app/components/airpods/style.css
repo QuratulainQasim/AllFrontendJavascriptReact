@@ -1,0 +1,22 @@
+.head-1 {
+    color: blueviolet;
+    /* text-align: center; */
+    font-family: Arial;
+}
+
+.earpods-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.earpods-table th,
+.earpods-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.earpods-table th {
+    background-color: #f2f2f2;
+}

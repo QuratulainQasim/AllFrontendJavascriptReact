@@ -1,0 +1,19 @@
+.img-employee {
+    width: 100%;
+    height: 100%;
+   
+
+   
+
+}
+
+.head-office-worker {
+    color: lightseagreen;
+    font-family: Arial;
+    text-align: center;
+}
+
+.over-All {
+    border: 2px solid pink;
+    box-shadow: inset -100px -78px 100px   rgb(307, 142, 483)
+}

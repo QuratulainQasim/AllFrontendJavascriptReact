@@ -1,0 +1,56 @@
+.nav {
+    border: 1px solid rgb(105, 83, 218);
+    width: 52%;
+    height: auto;
+    padding: 20px 0px;
+    margin-left: 19.5%;
+
+}
+
+.navmanue {
+    text-align: center;
+    font-family: Arial;
+}
+
+.currencyNavigation {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.currencyNavigation li {
+    display: inline-block;
+}
+
+.currencyNavigation li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: 20px 40px;
+    background-color: aqua;
+}
+
+.dropDown {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 150px;
+    top: 100%;
+    left: 0;
+}
+
+.dropDown .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 150px;
+    top: 50px;
+    left: 0;
+}
+
+.dropDown:hover .dropdownContent {
+    display: block;
+}

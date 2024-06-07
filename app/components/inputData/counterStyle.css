@@ -1,0 +1,26 @@
+.counterMainDiv {
+    height: 50vh;
+    width: 30%;
+    background-color: bisque;
+    margin-left: 470px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: Arial;
+    border: 2px solid black;
+}
+
+.incrementButton {
+    margin-top: 50px;
+    height: 10%;
+    border: 3px solid darkmagenta;
+    border-radius: 100%;
+    opacity: 100%;
+}
+
+.decrementButton {
+    height: 10%;
+    border: 3px solid darkmagenta;
+    border-radius: 100%;
+    opacity: 100%;
+
+}
